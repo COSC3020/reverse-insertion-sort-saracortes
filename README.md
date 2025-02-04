@@ -36,3 +36,10 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+Best case is Θ(𝑛). This means that the array is already sorted. Therefore, the inner loop does no shifting, which makes the total runtime linear.
+
+The average-case time complexity of insertion sort is Θ(n^2). This result makes sense because each element must shift around half of the already sorted elements. This leads to quadratic growth when it comes to operations.
+
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
